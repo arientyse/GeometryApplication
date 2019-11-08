@@ -54,7 +54,12 @@ public class geometry {
 		
 	}
 	
-	//This method calculates the area of a circle based off of the user's input for radius
+	/*
+	 * This method calculates the area of a circle based off of the user's input for radius 
+	 * 
+	 * @return circleArea
+	 * 
+	 * */
 	public static double circle()
 	{
 		
@@ -75,7 +80,12 @@ public class geometry {
 		
 	}
 	
-	//This method calculates the area of a rectangle based off of user input
+	/*
+	 * This method calculates the area of a rectangle based off of user input 
+	 * 
+	 * @return rectangleArea
+	 * 
+	 * */
 	public static double rectangle()
 	{
 		
@@ -99,7 +109,12 @@ public class geometry {
 		
 	}
 	
-	//This method calculates the area of a triangle based on the user inputs
+	/*
+	 * This method calculates the area of a triangle based on the user inputs 
+	 * 
+	 * @return triangleArea
+	 * 
+	 * */
 	public static double triangle()
 	{
 		
@@ -123,12 +138,19 @@ public class geometry {
 		
 	}
 	
-	//This method prints the final area calculation with two decimal points
+	/*
+	 * This method prints the final area calculation with two decimal points
+	 * 
+	 * @param area
+	 * 
+	 * */
 	public static void printArea(double area)
 	{
 		
 		System.out.printf("The area is %.2f \n", area);
 		
 	}
+	
+	
 	
 }
