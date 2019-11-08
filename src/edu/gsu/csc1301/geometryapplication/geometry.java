@@ -19,14 +19,14 @@ public class geometry {
 		
 		Scanner in = new Scanner(System.in);
 		
-		displayMenu();
+		displayMenu(); //Displays the welcome message and selection menu for the user
 		
 		//Input
 		
 		System.out.print("Enter your choice (1-3): ");
 		int userChoice = in.nextInt();
 		
-		while (userChoice < 1 || userChoice > 3)
+		while (userChoice < 1 || userChoice > 3) //Used to determine if the user's input is between 1 and 3
 		{
 			System.out.print("Invalid choice. Please enter 1 - 3: ");
 			userChoice = in.nextInt();
@@ -34,14 +34,14 @@ public class geometry {
 		
 		//Computation
 		
-		selectOption(userChoice);
+		selectOption(userChoice); //Prompts the method that determines which area value to calculate
 		
 		in.close();
 
 		//Output
 		
 		
-		System.out.print("Thanks for using the Geometry Calculator - Goodbye!");
+		System.out.print("Thanks for using the Geometry Calculator - Goodbye!"); //Prints the goodbye message
 		
 
 	}
