@@ -32,10 +32,13 @@ public class geometry {
 		
 		//Computation
 		
-		
+		selectOption(userChoice);
+
 		//Output
 		
 		displayMenu();
+		
+		System.out.print("Thanks for using the Geometry Calculator - Goodbye!");
 		
 
 	}
