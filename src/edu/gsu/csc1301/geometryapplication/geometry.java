@@ -123,8 +123,11 @@ public class geometry {
 		
 	}
 	
+	//This method prints the final area calculation with two decimal points
 	public static void printArea(double area)
 	{
+		
+		System.out.printf("The area is %.2f \n", area);
 		
 	}
 	
