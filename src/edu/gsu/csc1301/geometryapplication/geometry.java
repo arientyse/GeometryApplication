@@ -99,6 +99,7 @@ public class geometry {
 		
 	}
 	
+	//This method calculates the area of a triangle based on the user inputs
 	public static double triangle()
 	{
 		
@@ -110,13 +111,20 @@ public class geometry {
 		double triangleBase = in.nextDouble();
 		
 		System.out.print("What is the triangle's height? ");
-		double triangleHeight = in.nextDouble();
+		double triangleHeight = in.nextDouble(); 
 		
 		//Computation
 		
+		double triangleArea = .5 * triangleBase * triangleHeight;
 		
 		//Output
 		
+		return triangleArea;
+		
+	}
+	
+	public static void printArea(double area)
+	{
 		
 	}
 	
