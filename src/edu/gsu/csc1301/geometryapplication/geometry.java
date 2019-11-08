@@ -27,7 +27,7 @@ public class geometry {
 		while (userChoice < 1 || userChoice > 3)
 		{
 			System.out.print("Invalid choice. Please enter 1 -3: ");
-			int userChoice = in.nextInt();
+			userChoice = in.nextInt();
 		}
 		
 		//Computation
