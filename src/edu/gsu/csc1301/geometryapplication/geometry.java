@@ -21,6 +21,14 @@ public class geometry {
 		
 		//Input
 		
+		System.out.print("Enter your choice (1-3): ");
+		int userChoice = in.nextInt();
+		
+		while (userChoice < 1 || userChoice > 3)
+		{
+			System.out.print("Invalid choice. Please enter 1 -3: ");
+			int userChoice = in.nextInt();
+		}
 		
 		//Computation
 		
@@ -32,6 +40,7 @@ public class geometry {
 
 	}
 
+	//This method will display the options menu for the user to select the area they're looking to find
 	public static void displayMenu()
 	{
 		
@@ -40,8 +49,8 @@ public class geometry {
 		System.out.println("Welcome to the Geometry Calculator Application\n");
 		
 		System.out.println("1. Calculate the Area of a Circle");
-		System.out.println("1. Calculate the Area of a Rectangle");
-		System.out.println("1. Calculate the Area of a Triangle");
+		System.out.println("2. Calculate the Area of a Rectangle");
+		System.out.println("3. Calculate the Area of a Triangle");
 		
 	}
 }
