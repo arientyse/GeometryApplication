@@ -53,4 +53,71 @@ public class geometry {
 		System.out.println("3. Calculate the Area of a Triangle");
 		
 	}
+	
+	//This method calculates the area of a circle based off of the user's input for radius
+	public static double circle()
+	{
+		
+		Scanner in = new Scanner(System.in);
+		
+		//Input
+		
+		System.out.print("What is the length of the circle's radius? ");
+		double circleRadius = in.nextDouble();		
+		
+		//Computation
+		
+		double circleArea = Math.PI * Math.pow(circleRadius, 2);
+		
+		//Output
+		
+		return circleArea;
+		
+	}
+	
+	//This method calculates the area of a rectangle based off of user input
+	public static double rectangle()
+	{
+		
+		Scanner in = new Scanner(System.in);
+		
+		//Input
+		
+		System.out.print("What is the rectangle's length? ");
+		double rectangleLength = in.nextDouble();
+		
+		System.out.print("What is the rectangle's width? ");
+		double rectangleWidth = in.nextDouble();
+		
+		//Computation
+		
+		double rectangleArea = rectangleLength * rectangleWidth;
+		
+		//Output
+		
+		return rectangleArea;
+		
+	}
+	
+	public static double triangle()
+	{
+		
+		Scanner in = new Scanner(System.in);
+		
+		//Input
+		
+		System.out.print("What is the lenght of the triangle's base? ");
+		double triangleBase = in.nextDouble();
+		
+		System.out.print("What is the triangle's height? ");
+		double triangleHeight = in.nextDouble();
+		
+		//Computation
+		
+		
+		//Output
+		
+		
+	}
+	
 }
