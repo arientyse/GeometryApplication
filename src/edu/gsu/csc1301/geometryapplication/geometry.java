@@ -151,6 +151,40 @@ public class geometry {
 		
 	}
 	
+	/*
+	 * This method contains the logic needed for the system to provide the correct area value chosen by the user input
+	 * 
+	 * @param choice
+	 * 
+	 */
+	public static void selectOption(int choice)
+	{
+		
+		if (choice == 1)
+		{
+			double circleArea = circle();
+			
+			printArea(circleArea);
+		}
+		
+		else if (choice == 2)
+		{
+			double rectangleArea = rectangle();
+			
+			printArea(rectangleArea);
+		}
+		
+		else
+		{
+			double triangleArea = triangle();
+			
+			printArea(triangleArea);
+			
+		}
+		
+		
+	}
+	
 	
 	
 }
