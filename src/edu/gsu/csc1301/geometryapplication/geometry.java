@@ -28,13 +28,15 @@ public class geometry {
 		
 		while (userChoice < 1 || userChoice > 3)
 		{
-			System.out.print("Invalid choice. Please enter 1 -3: ");
+			System.out.print("Invalid choice. Please enter 1 - 3: ");
 			userChoice = in.nextInt();
 		}
 		
 		//Computation
 		
 		selectOption(userChoice);
+		
+		in.close();
 
 		//Output
 		
@@ -78,6 +80,8 @@ public class geometry {
 		
 		double circleArea = Math.PI * Math.pow(circleRadius, 2);
 		
+		in.close();
+		
 		//Output
 		
 		return circleArea;
@@ -107,6 +111,8 @@ public class geometry {
 		
 		double rectangleArea = rectangleLength * rectangleWidth;
 		
+		in.close();
+		
 		//Output
 		
 		return rectangleArea;
@@ -135,6 +141,8 @@ public class geometry {
 		//Computation
 		
 		double triangleArea = .5 * triangleBase * triangleHeight;
+		
+		in.close();
 		
 		//Output
 		
