@@ -19,6 +19,8 @@ public class geometry {
 		
 		Scanner in = new Scanner(System.in);
 		
+		displayMenu();
+		
 		//Input
 		
 		System.out.print("Enter your choice (1-3): ");
@@ -36,7 +38,6 @@ public class geometry {
 
 		//Output
 		
-		displayMenu();
 		
 		System.out.print("Thanks for using the Geometry Calculator - Goodbye!");
 		
